@@ -1,0 +1,159 @@
+html,
+body,
+.cover{
+	height: 100%;
+}
+.cover{
+	background: url("Img/couchfriends.jpg")top left no-repeat;
+	color: white;
+	display: table;
+	width: 100%;
+	padding: 0 20%;
+	box-shadow: inset 0 0 100px #000;
+
+
+}
+
+.cover-text{
+
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+
+}
+.cover-text h1{
+
+	margin:0;
+	font-size: 50px;
+	letter-spacing: 3px;
+	font-style: italic;
+
+}
+nav.navbar-inverse{
+
+	background: rgba(0, 0, 0, 0.5);
+	border: none;
+
+}
+
+.testimonial{
+
+
+	background: #222;
+	border-top: solid 2px red;
+
+}
+blockquote{
+
+	margin: 0;
+	border: 10px white;
+	font-size: 32px;
+	font-style: italic;
+	color: white;
+	font-family: Georgia, Times ,serif;
+}
+
+blockquote cite{
+
+	display: block;
+	text-transform: uppercase;
+	margin-top: 40px;
+	text-align: right;
+	font-size: 18px;
+	font-style: normal;
+	font-family: Helvetica;
+	font-weight: 18px;
+	color: #888;
+
+}
+
+section{
+
+	padding:100px;
+
+}
+h2{
+
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 0 60px;
+}
+h2 + p{
+
+	text-align: center;
+	margin-top: -60px;
+
+}
+
+
+#team{
+
+	background: url("Img/fan.jpg") top left no-repeat;
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+
+footer{
+
+	background: #222;
+	text-align: center;
+	padding:20px;
+	font-family: Georgia, Times, serif;
+	color: white;
+
+}
+ 
+/*Media Queries*/
+
+@media only screen and (max-width: 568px){
+
+	.cover h1{
+		font-size: 30px;
+
+	}
+	section{
+
+		padding:20px;
+	}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
